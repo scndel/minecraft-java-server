@@ -1,5 +1,4 @@
-FROM amazoncorretto:18.0.1-alpine3.15
-
+FROM amazoncorretto:20
 WORKDIR /minecraft
 
 COPY . .
